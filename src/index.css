@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+@layer utilities {
+  .animate-scroll-vertical {
+    animation: scroll-vertical 40s linear infinite;
+  }
+  
+  .pause-scroll {
+    animation-play-state: paused;
+  }
+
+  @keyframes scroll-vertical {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-50%); }
+  }
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+  width: 4px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: #e2e8f0;
+  border-radius: 10px;
+}

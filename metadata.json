@@ -1,0 +1,8 @@
+{
+  "name": "Remix Sistem Absensi Siswa SMAN 1 Lumbung (RFID) Beta v1",
+  "description": "Aplikasi presensi siswa berbasis RFID \u0026 QR Code dengan RBAC (Admin, Guru Piket, Wali Kelas), Kiosk Mode, Laporan PDF/Excel untuk SMAN 1 Lumbung.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
